@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>My Favourite Person</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+
+            background-color:lavender;
+
+        }
+
+        h1 {
+
+            color: navy;
+
+        }
+
+        .card-label {
+
+            font-size: 11px;
+
+            color: maroon;
+
+            text-transform: uppercase;
+
+        }
+
+        pre {
+
+            font-size: 13px;
+
+            color: #333;
+
+        }
+    </style>
+
+</head>
+
+<body class="py-4">
+
+    <div class="container">
+
+        <h1 class="mb-1">My Favorite person</h1>
+
+        <p class="text-muted mb-4">
+
+            MY FAV PERSON
+
+        </p>
+
+        <!-- Contact Card -->
+
+        <div class="card shadow-sm mb-3" style="max-width:400px;">
+
+            <div class="card-body">
+
+                <h5 class="card-title" style="color:#FF5A43;">Here!</h5>
+
+                <ul class="list-group list-group-flush">
+
+                    <li class="list-group-item">
+
+                        <span class="card-label d-block">Name</span>
+
+                        <strong id="name">-</strong>
+
+                    </li>
+
+                    <li class="list-group-item">
+
+                        <span class="card-label d-block">About Them</span>
+
+                        <strong id="About">My dad is my fav person because he is super hardworking, working maybe more than 10 hours yet still comes home to us happily, not showing hsi tiredness and spendign time, he makes me laugh and knowns the exact right words to comfort me in the exact right time , not to mention the food he makes is amazing</strong>
+
+                    </li>
+
+                    
+                </ul>
+
+            </div>
+
+        </div>
+
+        <!-- Code Box -->
+
+        
+        </div>
+
+    </div><!-- /container -->
+
+    <script>
+        var myContact = {
+            name: "My Dad",
+            About: "My dad is my fav person because he is super hardworking, working maybe more than 10 hours yet still comes home to us happily, not showing hsi tiredness and spendign time, he makes me laugh and knowns the exact right words to comfort me in the exact right time , not to mention the food he makes is amazing",
+
+        };
+        var nameEl = document.getElementById("name");
+        var phoneEl = document.getElementById("About");
+        nameEl.textContent = myContact.name;
+        AboutEl.textContent = myContact.About;
+   
+
+    </script>
+
+</body>
+
+</html>
